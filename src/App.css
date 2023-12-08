@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.white-bold {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.inner-box {
+  display: flex;
+  justify-content: flex-end; /* Aligns items to the end */
+  align-items: center; /* Aligns items vertically */
+  position: relative;
+  height: 60px; /* Adjust the height as needed */
+  width: 100%; /* To make it stretch across the entire width */
+  background-color: white; /* Set the background color */
+  border-radius: 25px; /* Set the border-radius */
+}
+
+
+
+
+.outer-box{
+  height: 250px;
+  margin-top: 20%;
+  background-color: rgb(48, 45, 45);
+  padding: 30px;
+  border-radius: 25px;
+ 
+}
+
+
+.password-input{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  padding: 5px;
+  border-radius:5px;
+}
+
+.copy-button {
+  padding: 20px 20px;
+  background-color: #4CAF50;
+  border-radius: 6px;
+  /* cursor: pointer; */
+}
+
+
+.length{
+  padding-left: 2%;
+}
+
+.label{
+  color: white;
+}
